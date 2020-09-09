@@ -1,6 +1,0 @@
-id,quantity,unit_price,total_price,ref_id,invoice_id_id,item_id_id
-14,2,3500,7000,,INV1001,ITEM1
-15,3,400,1200,,INV1001,ITEM2
-16,2,1000,2000,,INV1001,ITEM3
-17,3,65,195,,INV1002,keyboard1
-18,1,550,550,,INV1002,monitor1
