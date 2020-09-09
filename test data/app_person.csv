@@ -1,8 +1,0 @@
-person_id,person_name,person_address,person_phone_number,person_role,user_id_id
-STAFF00001,Hafiz Ghani,"Finance MMU, Persiaran Multimedia 63100 Cyberjaya Selangor",+60112345424,FINANCE,1
-STAFF00002,Muhamad Ghani,"RnD MMU, Persiaran Multimedia 63100 Cyberjaya Selangor",+60156348724,MANAGER,2
-STAFF00003,Sheema Khash,"RnD MMU, Persiaran Multimedia 63100 Cyberjaya Selangor",+60156348724,MANAGER,3
-STAFF00004,AlZouabi Mohammad,"Finance MMU, Persiaran Multimedia 63100 Cyberjaya Selangor",+60156348724,FINANCE,4
-STAFF00005,mohammed,"Finance MMU, Persiaran Multimedia 63100 Cyberjaya Selangor",+60156348724,FINANCE,5
-STAFF00006,ali,"Finance MMU, Persiaran Multimedia 63100 Cyberjaya Selangor",+60156348724,FINANCE,6
-STAFF00007,amr,"Finance MMU, Persiaran Multimedia 63100 Cyberjaya Selangor",+60156348724,FINANCE,7
