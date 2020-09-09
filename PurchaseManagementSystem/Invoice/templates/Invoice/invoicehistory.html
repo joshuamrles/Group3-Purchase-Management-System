@@ -1,0 +1,39 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+<div class="purcahseorderhistory margintop" action="menu" >
+    
+    <form action="invoicehistorydetails" method="GET">
+        <table class="table table-striped margintop">
+          <thead>
+            <tr>
+              <th scope="col">Invoice ID</th>
+              <th scope="col">Staff ID</th>
+              <th scope="col">Vendor ID</th>
+              <th scope="col">Status</th>
+              <th scope="col">Time</th>
+            </tr>
+          </thead>
+          <tbody>
+              {% for r in rows %}
+            <tr>
+                 <td><button type="submit" name="inv_id" value="{{r.invoice_id}}" class="btn btn-info" >{{r.invoice_id}}</button></td>
+                 <td>{{r.person_id.person_id}}</td>
+                 <td>{{r.vendor_id}}</td>
+                 <td>{{r.invoice_status}}</td>
+                 <td>{{r.time_created}}</td>
+
+            </tr>
+              {% endfor %}
+          </tbody>
+        </table>
+    </form>
+       <form action="menu">
+        <div class="margintop">
+            <button type="submit" class="btn btn-info" >Back</button>
+        </div>
+    </form>
+</div>
+
+
+{% endblock %}

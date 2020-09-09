@@ -1,0 +1,7 @@
+Django==1.11.24
+mysql-connector-python==8.0.15
+pip==18.1
+prettytable==0.7.2
+pytz==2019.2
+setuptools==40.6.2
+whitenoise==4.1.3
