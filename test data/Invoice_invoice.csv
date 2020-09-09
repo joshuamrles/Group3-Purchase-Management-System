@@ -1,0 +1,3 @@
+invoice_id,time_created,description,total_price,invoice_status,person_id_id,purchase_order_id_id,vendor_id_id
+INV1001,2019-09-26 11:49:03.936053,Payment need to be done before October 2019,10200,PENDING,STAFF00001,PO1001,VEN1000001
+INV1002,2020-07-27 21:47:29.673876,,745,PENDING,STAFF00001,PO1003,VEN1000001

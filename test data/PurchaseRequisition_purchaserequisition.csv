@@ -1,0 +1,4 @@
+pr_id,description,time_created,total_price,status,person_id_id
+PR1001,"['Rnd for design used', 'RnD', 'Developer']",2019-09-26 11:48:21.440040,9500,APPROVED,STAFF00002
+PR1002,"['designer', 'designer']",2020-02-10 16:14:01.657152,6400,APPROVED,STAFF00003
+PR1003,"['Rnd for design used', 'Rnd for design used']",2020-07-27 21:34:04.292441,900,APPROVED,STAFF00003

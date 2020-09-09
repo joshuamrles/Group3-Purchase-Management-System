@@ -1,0 +1,5 @@
+purchase_order_id,shipping_instructions,time_created,description,total_price,person_id_id,quotation_id_id,vendor_id_id
+PO1001,Please ship to our company dock,2019-09-26 11:48:47.236362,Please pack with care,10200,STAFF00001,QUO1001,VEN1000001
+PO1002,"Please ship to our company dock
+",2020-02-10 17:42:43.485057,Please pack with care,6400,STAFF00001,QUO1002,VEN1000001
+PO1003,,2020-07-27 21:44:28.753085,,745,STAFF00001,QUO1003,VEN1000001

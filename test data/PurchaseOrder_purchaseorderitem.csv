@@ -1,0 +1,8 @@
+id,quantity,unit_price,total_price,ref_id,item_id_id,purchase_order_id_id
+14,2,3500,7000,,ITEM1,PO1001
+15,3,400,1200,,ITEM2,PO1001
+16,2,1000,2000,,ITEM3,PO1001
+17,2,200,400,,ITEM100,PO1002
+18,2,3000,6000,,ITEM101,PO1002
+19,3,65,195,,keyboard1,PO1003
+20,1,550,550,,monitor1,PO1003
