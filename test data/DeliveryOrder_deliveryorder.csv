@@ -1,3 +1,0 @@
-delivery_order_id,shipping_instructions,time_created,description,total_price,person_id_id,purchase_order_id_id,vendor_id_id
-DO1001,,2019-09-26 11:48:58.204161,,10200,STAFF00001,PO1001,VEN1000001
-DO1002,,2020-07-27 21:46:22.893374,,745,STAFF00001,PO1003,VEN1000001
