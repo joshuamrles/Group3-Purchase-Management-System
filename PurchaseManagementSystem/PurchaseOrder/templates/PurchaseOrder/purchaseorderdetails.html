@@ -71,6 +71,13 @@
               </tr>
           </tfoot>
         </table>
+
+       <div class="row margintop">
+            <div class="col">
+                <div class="form-control potextarea" name="description" id="description" style="background-color:rgb(80, 200, 120); color:white; text-align:center; height:auto;" readonly> Email Has Been Succesfully Sent !!!</div>
+            </div>
+        </div>
+
         <div class="margintop">
             <button type="submit" class="btn btn-info buttonsize">Close</button>
         </div>
@@ -79,6 +86,32 @@
     </form>
 
 </div>
+
+<style>
+    tr > .btn-info {
+        border-color: #cc2936;
+        background-color: #cc2936;
+    }
+
+    .margintop > .btn-info {
+        border-color: #6b818c;
+        background-color: #6b818c;
+    }
+
+    tr:nth-child(even) {
+        background-color: #bdc3c7;
+    }
+
+    .containertitle {
+        background-color: #08415c;
+        border-color: #08415c;
+    }
+
+    .containertitle > .font {
+        color: #f1bf98;
+    }
+
+</style>
 
 
 {% endblock %}
