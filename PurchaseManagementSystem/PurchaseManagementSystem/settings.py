@@ -124,6 +124,13 @@ USE_L10N = True
 
 USE_TZ = True
 
+# EMAIL SETTING
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'sre.hafizghani.group3@gmail.com' 
+EMAIL_HOST_PASSWORD = 'qwER_1234'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
@@ -132,9 +139,3 @@ STATIC_URL = 'app/static/'
 
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['app/static']))
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'softwaretest.sef@gmail.com' 
-EMAIL_HOST_PASSWORD = 'qwER_1234'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
