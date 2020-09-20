@@ -2,8 +2,8 @@
 
 {% block content %}
 <div class="formpurchaseorder" >
-    
-
+     
+    <!--need to change UI -->
     <form class="purchaserequisitionsubmission margintop" action="purchaserequisitiondetails" method="POST">
         {% csrf_token %}
         <div class="row">
@@ -63,5 +63,30 @@
 
 </div>
 
+<style>
+    tr > .btn-info {
+        border-color: #cc2936;
+        background-color: #cc2936;
+    }
+
+    .margintop > .btn-info {
+        border-color: #6b818c;
+        background-color: #6b818c;
+    }
+
+    tr:nth-child(even) {
+        background-color: #bdc3c7;
+    }
+
+    .containertitle {
+        background-color: #08415c;
+        border-color: #08415c;
+    }
+
+    .containertitle > .font {
+        color: #f1bf98;
+    }
+
+</style>
 
 {% endblock %}
