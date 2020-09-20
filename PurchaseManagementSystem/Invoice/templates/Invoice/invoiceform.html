@@ -57,7 +57,7 @@
                 <tr>
                     <td><input type="text" class="form-control" name="item_id" value="{{r.item_id}}" readonly></td>
                     <td><input type="text" class="form-control" name="item_name" value="{{r.item_id.item_name}}" readonly></td>
-                    <td><input type="text" class="form-control" name="quantity" value="{{r.quantity}}" placeholder="Quantity Item"></td>
+                    <td><input type="text" class="form-control" name="quantity" value="{{r.quantity}}" placeholder="Quantity Item"readonly></td>
                     <td><input type="text" class="form-control" name="unit_price" value="{{r.unit_price}}" readonly></td>
                     <td><input type="text" class="form-control" name="total_price" value="{{r.total_price}}" readonly></td>
                 </tr>
@@ -74,6 +74,30 @@
     </form>
 
 </div>
+<style>
+    tr > .btn-info {
+        border-color: #cc2936;
+        background-color: #cc2936;
+    }
 
+    .margintop > .btn-info {
+        border-color: #6b818c;
+        background-color: #6b818c;
+    }
+
+    tr:nth-child(even) {
+        background-color: #bdc3c7;
+    }
+
+    .containertitle {
+        background-color: #08415c;
+        border-color: #08415c;
+    }
+
+    .containertitle > .font {
+        color: #f1bf98;
+    }
+
+</style>
 
 {% endblock %}
